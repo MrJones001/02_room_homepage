@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+}
+nav{
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-family: 'League Spartan', sans-serif;
+     
+}
+img{
+    margin: 0;
+    padding: 0;
+}
+.nav-bar{
+    margin-left: 100px;
+    list-style-type: none;
+    display: flex;
+}
+a{
+    text-decoration: none;
+    margin: 10px;
+    margin-top: 10px;
+    color: black;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.logo{
+    position: absolute;
+    color: white;
+    top: 50px;
+    left: 16px;
+}
+.home{
+    position: absolute;
+    top: 47px;
+    left: 100px;
+    color: white;
+    margin: 10px;
+}
+.shop{
+    position: absolute;
+    top: 47px;
+    left: 150px;
+    color: white;
+}
+.about{
+    position: absolute;
+    top: 47px;
+    left: 200px;
+    color: white;
+}
+.first {
+    width: 700px;
+    height: 500px;
+}
+.contact{
+    position: absolute;
+    top: 47px;
+    left: 250px;
+    color: white;
+}
+.side{
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.017);
+    width: 400px;
+    height: 500px;
+    right: 150px;
+    margin-left: 50px;
+    position: relative;
+    
+}
+.global{
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: start;
+    font-family: 'League Spartan', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.world{
+    margin-top: 50px;
+    color: rgb(159, 157, 154);
+    font-style: italic;
+    font-family: 'League Spartan', sans-serif;
+    text-align: start;
+    justify-content: center;
+    align-content: center;
+}
+.now{
+    margin-top: 30px;
+    font-family: 'League Spartan', sans-serif;
+    justify-content: center;
+    text-align: start;
+    font-size: large;
+    font-weight: bold;
+}
+.arrow{
+    height: 12px;
+    width: 40;
+    display: flex;
+}
+.pointing{
+    background-color: black;
+    width: 120px;
+    height:60px;
+    margin-top: 450px;
+    display: flex;
+    position: relative;
+    right: 100px;
+    bottom: 5px;
+    justify-content: space-around;
+    align-items: center;    
+}
+.gallery{
+   display: flex; 
+   height: 300px;
+}
+.dark{
+    width: 300px;
+    height: 300px;
+}
+.side2{
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    justify-content: center;
+    padding: 30px;
+}
+.our{
+    margin-top: 50px;
+    font-family: 'League Spartan', sans-serif;
+   width: 400px;
+    margin: 40px;
+    text-transform: uppercase;
+    text-align:start ;
+    margin-left: 0px;
+    justify-content: center;
+    margin-left:30px ;
+}
+
+.collection{
+    margin-top: 50px;
+    color: rgb(159, 157, 154);
+    font-style: italic;
+    font-family: 'League Spartan', sans-serif;
+    text-align: start;
+
+    align-content: center;
+    height: 300px;
+    margin: 20px;
+}
+.light{
+    width: 500px;
+    height: 300px;
+    margin-left: 60px;
+}
+        /* MEDIA QUERIES */
+    @media (min-width: 376px) and (max-width: 1440px) {
+
+    }
+    @media (max-width: 375px) {
+        .logo{
+            text-align: center;
+            font-size: 40px;
+            left: 100px;
+            top: 45px;
+        }
+
+       .container{
+        flex-direction: column;
+       }
+       .first{
+        height: 550px;
+        width: 615px;
+       }
+       .pointing{
+        position: relative;
+        bottom: 510px;
+        left: 245px;
+       }
+       .side{
+        position: absolute;
+        top: 600px;
+        align-items: center;
+        justify-content: center;
+        left: 50px;
+       }
+       .gallery{
+        flex-direction: column;
+        align-items: center;
+       }
+       .dark{
+        height: 550px;
+        width: 850px;
+       }
+       .side2{
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        left: 100px;
+        font-size: 20px;
+       }
+       .our{
+        text-align: start;
+        font-size: medium;
+        right: 150px;
+       }
+       .collection{
+        left: 100px;
+        text-align: start;
+       }
+       .light{
+        height: 550px;
+        width: 800px;
+       }
+       .nav-bar{
+        position: absolute;
+        left: 150px;
+        font-size: medium;
+       }
+    }
+
+    
