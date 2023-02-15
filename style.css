@@ -167,10 +167,10 @@ a{
     margin-left: 60px;
 }
         /* MEDIA QUERIES */
-    @media (min-width: 376px) and (max-width: 1440px) {
+    @media (min-width: 641px) and (max-width: 1440px) {
 
     }
-    @media (max-width: 375px) {
+    @media (max-width: 640px) {
         .logo{
             text-align: center;
             font-size: 40px;
