@@ -221,6 +221,7 @@ a{
        .container{
         flex-direction: column;
         zoom: 70%;
+        position: relative;
        }
        .nav-bar{
         margin-left: 300px;
@@ -233,13 +234,13 @@ a{
         position: relative;
         height: 550px;
         width: 1000px;
-        zoom: 150%;
+        zoom: 200%;
       
        }
        .direction{
         position: relative;
         bottom: 348px;
-        left: 412px;
+        left: 665px;
         width: 100px;
        }
        .pointing{
@@ -272,7 +273,7 @@ a{
         width: 1000px;
         bottom: 70px;
         zoom: 100%;
-        right: 600px;
+        right: 500px;
        }
        .side2{
         position: relative;
