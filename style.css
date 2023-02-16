@@ -125,26 +125,32 @@ a{
     width: 40;
     display: flex;
 }
+.direction{
+    position: relative;
+    left: 49px;
+    margin-left: 50px;
+    
+}
 .pointing{
     background-color: rgb(0, 0, 0);
-    width: 50px;
+    width: 90px;
     height:60px;
     margin-top: 40px;
     display: flex;
     position: relative;
     right: 219px;
-    top: 230px;
+    top: 229px;
     justify-content: space-around;
     align-items: center;
 }
 .pointing2{
     background-color: rgb(0, 0, 0);
-    width: 50px;
+    width: 90px;
     height:60px;
     display: flex;
     position: relative;
-    right: 170px;
-    top: 170px;
+    right: 139px;
+    top: 169px;
     justify-content: space-around;
     align-items: center;    
 }
@@ -153,7 +159,7 @@ a{
    height: 300px;
 }
 .dark{
-    width: 300px;
+    width: 350px;
     height: 300px;
 }
 .side2{
@@ -165,7 +171,7 @@ a{
 .our{
     margin-top: 50px;
     font-family: 'League Spartan', sans-serif;
-   width: 400px;
+    width: 400px;
     margin: 40px;
     text-transform: uppercase;
     text-align:start ;
@@ -194,6 +200,13 @@ a{
 
     }
     @media (max-width: 640px) {
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       body{
+        zoom: 58%;
+       }
         .logo{
             text-align: center;
             font-size: 40px;
@@ -207,34 +220,38 @@ a{
        .nav-bar{
         margin-left: 250px;
         position: absolute;
-        left: 270px;
+        left: 600px;
         font-size: medium;
        }
        .first{
         position: relative;
         height: 550px;
-        width: 850px;
+        width: 1000px;
+        zoom: 127%;
+        left: 1px;
        }
        .direction{
         position: relative;
         bottom: 350px;
-        left: 118px;
+        left: 300px;
+        width: 100px;
        }
        .pointing{
         position: relative;
-        left: 233px;
+        left: 182px;
        }
        .pointing2{
         position:relative;
-        left: 282px;
+        left: 270px;
         bottom: 590px;
        }
        .side{
         position: relative;
-        bottom: 100px;
+        bottom: 40px;
         align-items: center;
         justify-content: center;
-        left: 6px;
+        left: 0;
+        zoom: 170%;
        }
        .gallery{
         flex-direction: column;
@@ -242,35 +259,48 @@ a{
        }
        .dark{
         position: relative;
-        left: 200px;
         height: 550px;
-        width: 900px;
+        width: 1000px;
+        bottom: 70px;
+        zoom: 150%;
+        left: 110px;
        }
        .side2{
         position: relative;
         align-items: center;
         justify-content: center;
-        font-size: 20px;
+        font-size: 25px;
+        top: 20px;
+        right: 90px;
+        zoom: 170%;
+       }
+       .side2{
+        position: relative;
+        left: 50px;
+        zoom: 200%;
        }
        .our{
         position: relative;
         text-align: start;
         font-size: medium;
-        left: 200px;
+        left: 50px;
         margin-left: 100px;
+        font-size: 20px;
        }
        .collection{
         position: relative;
         align-items: center;
-        left: 270px;
+        left: 100px;
         text-align: start;
+        font-size: 20px;
         
        }
        .light{
         position:relative;
-        left: 200px;
+        zoom: 160%;
         height: 550px;
-        width: 850px;
+        width: 1000px;
+        left: 40px;
        }
        
     }
