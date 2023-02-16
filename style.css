@@ -49,6 +49,18 @@ a{
     color: white;
     margin: 10px;
 }
+.home:hover{
+    color: rgb(255, 157, 0);
+}
+.shop:hover{
+    color: rgb(255, 157, 0);
+}
+.about:hover{
+    color: rgb(255, 157, 0);
+}
+.contact:hover{
+    color: rgb(255, 157, 0);
+}
 .shop{
     position: absolute;
     top: 47px;
@@ -83,15 +95,16 @@ a{
     
 }
 .global{
-    margin-top: 70px;
-    font-size: 40px;
+    position: relative;
+    top: 80px;
+    font-size: 50px;
     text-align: start;
     font-family: 'League Spartan', sans-serif;
     justify-content: center;
     align-items: center;
 }
 .world{
-    margin-top: 50px;
+    margin-top: 120px;
     color: rgb(159, 157, 154);
     font-style: italic;
     font-family: 'League Spartan', sans-serif;
@@ -100,7 +113,7 @@ a{
     align-content: center;
 }
 .now{
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: 'League Spartan', sans-serif;
     justify-content: center;
     text-align: start;
@@ -113,14 +126,25 @@ a{
     display: flex;
 }
 .pointing{
-    background-color: black;
-    width: 120px;
+    background-color: rgb(0, 0, 0);
+    width: 50px;
     height:60px;
-    margin-top: 450px;
+    margin-top: 40px;
     display: flex;
     position: relative;
-    right: 100px;
-    bottom: 5px;
+    right: 219px;
+    top: 230px;
+    justify-content: space-around;
+    align-items: center;
+}
+.pointing2{
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height:60px;
+    display: flex;
+    position: relative;
+    right: 170px;
+    top: 170px;
     justify-content: space-around;
     align-items: center;    
 }
@@ -149,7 +173,6 @@ a{
     justify-content: center;
     margin-left:30px ;
 }
-
 .collection{
     margin-top: 50px;
     color: rgb(159, 157, 154);
@@ -181,55 +204,75 @@ a{
        .container{
         flex-direction: column;
        }
+       .nav-bar{
+        margin-left: 250px;
+        position: absolute;
+        left: 270px;
+        font-size: medium;
+       }
        .first{
+        position: relative;
         height: 550px;
-        width: 615px;
+        width: 850px;
+       }
+       .direction{
+        position: relative;
+        bottom: 350px;
+        left: 118px;
        }
        .pointing{
         position: relative;
-        bottom: 510px;
-        left: 245px;
+        left: 233px;
+       }
+       .pointing2{
+        position:relative;
+        left: 282px;
+        bottom: 590px;
        }
        .side{
-        position: absolute;
-        top: 600px;
+        position: relative;
+        bottom: 100px;
         align-items: center;
         justify-content: center;
-        left: 50px;
+        left: 6px;
        }
        .gallery{
         flex-direction: column;
         align-items: center;
        }
        .dark{
+        position: relative;
+        left: 200px;
         height: 550px;
-        width: 850px;
+        width: 900px;
        }
        .side2{
         position: relative;
         align-items: center;
         justify-content: center;
-        left: 100px;
         font-size: 20px;
        }
        .our{
+        position: relative;
         text-align: start;
         font-size: medium;
-        right: 150px;
+        left: 200px;
+        margin-left: 100px;
        }
        .collection{
-        left: 100px;
+        position: relative;
+        align-items: center;
+        left: 270px;
         text-align: start;
+        
        }
        .light{
+        position:relative;
+        left: 200px;
         height: 550px;
-        width: 800px;
+        width: 850px;
        }
-       .nav-bar{
-        position: absolute;
-        left: 150px;
-        font-size: medium;
-       }
+       
     }
 
     
