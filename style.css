@@ -205,35 +205,40 @@ a{
         padding: 0;
        }
        body{
-        zoom: 10%;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        zoom: 40%;
        }
+       
         .logo{
+            position: absolute;
             text-align: center;
             font-size: 40px;
-            left: 100px;
-            top: 45px;
+            left: 160px;
         }
 
        .container{
         flex-direction: column;
        }
        .nav-bar{
-        margin-left: 250px;
+        margin-left: 300px;
+        text-align: center;
         position: absolute;
-        left: 600px;
         font-size: medium;
        }
        .first{
         position: relative;
         height: 550px;
         width: 1000px;
-        zoom: 127%;
-        left: 1px;
+        zoom: 150%;
+        right: 40px;
        }
        .direction{
         position: relative;
-        bottom: 350px;
-        left: 300px;
+        bottom: 346px;
+        left: 356px;
         width: 100px;
        }
        .pointing{
