@@ -209,7 +209,7 @@ a{
         margin: 0;
         width: 100%;
         height: 100%;
-        zoom: 40%;
+        zoom: 50%;
        }
        
         .logo{
@@ -217,6 +217,7 @@ a{
             text-align: center;
             font-size: 40px;
             left: 160px;
+            zoom: 120%;
         }
 
        .container{
@@ -227,18 +228,19 @@ a{
         text-align: center;
         position: absolute;
         font-size: medium;
+        zoom: 125%;
        }
        .first{
         position: relative;
         height: 550px;
         width: 1000px;
         zoom: 150%;
-        right: 40px;
+      
        }
        .direction{
         position: relative;
-        bottom: 346px;
-        left: 356px;
+        bottom: 348px;
+        left: 412px;
         width: 100px;
        }
        .pointing{
@@ -256,7 +258,7 @@ a{
         align-items: center;
         justify-content: center;
         left: 0;
-        zoom: 170%;
+        zoom: 250%;
        }
        .gallery{
         flex-direction: column;
@@ -268,7 +270,7 @@ a{
         width: 1000px;
         bottom: 70px;
         zoom: 150%;
-        left: 110px;
+        left: 250px;
        }
        .side2{
         position: relative;
@@ -282,7 +284,8 @@ a{
        .side2{
         position: relative;
         left: 50px;
-        zoom: 200%;
+        zoom: 250%;
+        justify-content: center;
        }
        .our{
         position: relative;
@@ -302,10 +305,10 @@ a{
        }
        .light{
         position:relative;
-        zoom: 160%;
+        zoom: 150%;
         height: 550px;
         width: 1000px;
-        left: 40px;
+        left: 215px;
        }
        
     }
