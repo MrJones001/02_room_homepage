@@ -222,27 +222,30 @@ a{
 
        .container{
         flex-direction: column;
-        zoom: 65%;
+        zoom: 60%;
         position: relative;
+        left: 80px;
        }
        .nav-bar{
         margin-left: 300px;
         text-align: center;
         position: absolute;
-        font-size: medium;
-        zoom: 80%;
+        font-size:large;
+        justify-content: space-between;
+        
+
        }
        .first{
         position: relative;
         height: 550px;
         width: 1000px;
         zoom: 163%;
-      
+        right: 90px;
        }
        .direction{
         position: relative;
         bottom: 348px;
-        left: 480px;
+        left: 330px;
         width: 100px;
        }
        .pointing{
@@ -267,7 +270,7 @@ a{
         align-items: center;
         position: relative;
         left: 400px;
-        zoom: 150%;
+        zoom: 130%;
        }
        .dark{
         position: relative;
