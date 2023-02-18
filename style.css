@@ -223,18 +223,18 @@ a{
 
        .container{
         flex-direction: column;
-        zoom: 70%;
+        zoom: 90%;
         position: relative;
         left: 100px;
        }
        .nav-bar{
-        margin-left: 300px;
+        bottom: 620px;
         text-align: center;
-        position: absolute;
+        position: relative;
         font-size:large;
         justify-content: space-between;
-        zoom: 100%;
-
+        zoom: 150%;
+        
        }
        .first{
         position: relative;
