@@ -89,14 +89,12 @@ a{
     background-color: rgba(255, 255, 255, 0.017);
     width: 400px;
     height: 500px;
-    right: 150px;
-    margin-left: 50px;
-    position: relative;
-    
+    left: 850px;
+    position: absolute;
 }
 .global{
     position: relative;
-    top: 80px;
+    top: 60px;
     font-size: 40px;
     text-align: start;
     font-family: 'League Spartan', sans-serif;
