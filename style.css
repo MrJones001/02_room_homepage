@@ -203,21 +203,21 @@ a{
        *{
         margin: 0;
         padding: 0;
+        box-sizing: border-box;
        }
        body{
         padding: 0;
         margin: 0;
-        zoom: 35%;
         width: 100%;
         height: 100%;
        }
        
         .logo{
-            position: absolute;
+            position:absolute;
             text-align: center;
-            font-size: 40px;
-            zoom: 120%;
-            left: 150px;
+            font-size: 100px;
+            right: 200px;
+            right: 100px;
 
         }
 
@@ -225,16 +225,14 @@ a{
         flex-direction: column;
         zoom: 90%;
         position: relative;
-        left: 100px;
+        left: 530px;
        }
        .nav-bar{
-        bottom: 620px;
+        position: absolute;
+        top: 100px;
         text-align: center;
-        position: relative;
-        font-size:large;
-        justify-content: space-between;
-        zoom: 150%;
-        
+        justify-content: center;
+        right: 480px;
        }
        .first{
         position: relative;
@@ -278,8 +276,7 @@ a{
         height: 550px;
         width: 1000px;
         bottom: 70px;
-        zoom: 100%;
-        right: 570px;
+        right: 280px;
        }
        .side2{
         position: relative;
@@ -287,7 +284,7 @@ a{
         justify-content: center;
         font-size: 25px;
         top: 20px;
-        right: 450px;
+        right: 250px;
         zoom: 150%;
        }
        .our{
@@ -307,10 +304,9 @@ a{
        }
        .light{
         position:relative;
-        zoom: 100%;
         height: 550px;
         width: 1000px;
-        right: 600px;
+        right: 300px;
        }
        
     }
